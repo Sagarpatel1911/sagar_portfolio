@@ -9,26 +9,22 @@
 
 
 
-
-
-
-
-
-
 /* Navbar Styling */
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
     height: 80px;
-    background: rgba(44, 62, 80, 0.95); /* Dark professional theme */
-    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    background: rgba(44, 62, 80, 0.95);
+    /* Dark professional theme */
+    backdrop-filter: blur(10px);
+    /* Glassmorphism effect */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
     transition: 0.4s;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
@@ -47,7 +43,8 @@
 }
 
 .nav-logo span {
-    color: #3498db; /* Blue accent color */
+    color: #3498db;
+    /* Blue accent color */
 }
 
 .nav-menu {
@@ -103,8 +100,10 @@
 
 /* Responsive (Mobile View) */
 @media (max-width: 768px) {
-    .hamburger { display: block; }
-    
+    .hamburger {
+        display: block;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -116,15 +115,15 @@
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
-    
-    .nav-menu.active { left: 0; }
-    
-    .nav-link { margin: 15px 0; }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-link {
+        margin: 15px 0;
+    }
 }
-
-
-
-
 
 
 
@@ -135,7 +134,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Deep Blue Gradient */
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    /* Deep Blue Gradient */
     color: white;
     text-align: center;
     padding: 0 20px;
@@ -224,6 +224,7 @@
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -232,10 +233,14 @@
 
 /* Responsive for Mobile */
 @media (max-width: 768px) {
-    .hero-content h1 { font-size: 2.5rem; }
-    .hero-btns { flex-direction: column; }
-}
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
 
+    .hero-btns {
+        flex-direction: column;
+    }
+}
 
 
 
@@ -275,7 +280,8 @@
     display: flex;
     gap: 50px;
     align-items: center;
-    flex-wrap: wrap; /* Mobile friendly banane ke liye */
+    flex-wrap: wrap;
+    /* Mobile friendly banane ke liye */
 }
 
 .about-text {
@@ -316,7 +322,7 @@
     padding: 30px;
     border-left: 5px solid #3498db;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .about-info h3 {
@@ -351,9 +357,6 @@
 
 
 
-
-
-
 .skills-section {
     padding: 80px 0;
     background-color: #fdfdfd;
@@ -371,14 +374,14 @@
     padding: 40px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-bottom: 4px solid #3498db;
 }
 
 .skill-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .skill-icon {
@@ -418,10 +421,6 @@
 
 
 
-
-
-
-
 .projects-section {
     padding: 80px 0;
     background-color: #f4f7f6;
@@ -438,7 +437,7 @@
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     transition: 0.3s;
     display: flex;
     flex-direction: column;
@@ -446,7 +445,7 @@
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 .project-image {
@@ -527,8 +526,6 @@
 
 
 
-
-
 .timeline {
     position: relative;
     max-width: 800px;
@@ -569,8 +566,10 @@
     padding: 15px;
     border-radius: 8px;
 }
+
 .highlight-school {
-    background: #f0f7ff; /* Light blue background for your best score */
+    background: #f0f7ff;
+    /* Light blue background for your best score */
     padding: 15px;
     border-radius: 8px;
     border-right: 4px solid #3498db;
@@ -580,8 +579,6 @@
     color: #2c3e50;
     font-size: 1.1rem;
 }
-
-
 
 
 
@@ -641,14 +638,15 @@
     background: #f9f9f9;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .form-group {
     margin-bottom: 20px;
 }
 
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 12px 15px;
     border: 1px solid #ddd;
@@ -657,7 +655,8 @@
     transition: 0.3s;
 }
 
-.form-group input:focus, .form-group textarea:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     border-color: #3498db;
 }
 
@@ -680,20 +679,26 @@
 
 
 @media (max-width: 768px) {
+
     /* Mobile Menu Fix */
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 80px; /* Navbar ki height jitna gap */
+        top: 80px;
+        /* Navbar ki height jitna gap */
         flex-direction: column;
         background-color: #2c3e50;
         width: 100%;
-        height: calc(100vh - 80px); /* Bachi hui screen height */
+        height: calc(100vh - 80px);
+        /* Bachi hui screen height */
         text-align: center;
         transition: 0.4s;
-        padding: 40px 0; /* Top aur bottom spacing */
-        overflow-y: auto; /* Agar screen choti ho toh scroll ho sake */
-        gap: 20px; /* Har link ke beech gap */
+        padding: 40px 0;
+        /* Top aur bottom spacing */
+        overflow-y: auto;
+        /* Agar screen choti ho toh scroll ho sake */
+        gap: 20px;
+        /* Har link ke beech gap */
     }
 
     .nav-menu.active {
@@ -702,12 +707,13 @@
 
     /* Hire me button mobile par align karein */
     .nav-btn {
-        margin-left: 0; /* Mobile par side margin ki zarurat nahi */
-        width: 80%; /* Button thoda bada dikhe mobile par */
+        margin-left: 0;
+        /* Mobile par side margin ki zarurat nahi */
+        width: 80%;
+        /* Button thoda bada dikhe mobile par */
         display: inline-block;
     }
 }
-
 
 /* --- Responsive Styles --- */
 
@@ -716,9 +722,11 @@
     .container {
         width: 90%;
     }
+
     .hero-content h1 {
         font-size: 3rem;
     }
+
     .about-content {
         gap: 30px;
     }
@@ -726,13 +734,16 @@
 
 /* Mobile Phones (max-width: 768px) */
 @media (max-width: 768px) {
+
     /* Home Section Adjustment */
     .hero-section {
         padding-top: 100px;
     }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
+
     .hero-btns {
         flex-direction: column;
         gap: 15px;
@@ -743,18 +754,21 @@
         flex-direction: column;
         text-align: center;
     }
+
     .about-info {
         width: 100%;
         border-left: none;
         border-top: 5px solid #3498db;
     }
+
     .strengths {
         justify-content: center;
     }
 
     /* Skills Grid Adjustment */
     .skills-container {
-        grid-template-columns: 1fr; /* Mobile par ek line mein ek skill card */
+        grid-template-columns: 1fr;
+        /* Mobile par ek line mein ek skill card */
     }
 
     /* Projects Grid Adjustment */
@@ -766,9 +780,11 @@
     .contact-wrapper {
         flex-direction: column;
     }
+
     .contact-info {
         text-align: center;
     }
+
     .info-item {
         flex-direction: column;
         gap: 10px;
@@ -780,9 +796,11 @@
     .hero-content h1 {
         font-size: 2rem;
     }
+
     .nav-logo {
         font-size: 1.2rem;
     }
+
     .section-title {
         font-size: 1.8rem;
     }
