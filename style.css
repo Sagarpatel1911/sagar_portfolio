@@ -422,8 +422,15 @@
 
 
 .projects-section {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: #f4f7f6;
+}
+
+.projects-section .container {
+    width: 60%;
+    max-width: 1100px; /* Ye poori screen par failne se rokega */
+    margin: 0 auto;    /* Center align karega */
+    padding: 0 20px;   /* Side mein thodi jagah rakhega */
 }
 
 .projects-grid {
@@ -513,13 +520,6 @@
 
 .project-links a:hover {
     text-decoration: underline;
-}
-
-.placeholder {
-    border: 2px dashed #ccc;
-    background: transparent;
-    justify-content: center;
-    text-align: center;
 }
 
 
@@ -805,3 +805,4 @@
         font-size: 1.8rem;
     }
 }
+
